@@ -1,0 +1,16 @@
+ls - List all files in current folder
+cp - copy file from one place to another
+mv - move or rename a file ("mv""file to rename""new name of file")
+    ".." means parent folder. Easy way to mv files from child to parent folder  
+code - create file with language assignment i.e. .py for python file      
+rm - remove/delete a file
+mkdir - make a directory, that is a folder
+rmdir - remove a directory
+cd - change directory from one folder to another 
+    ".." same as mv. Change directory to higher folder "../.." two folders up
+    "cd\" jump to base drive
+
+clear/cls #ctrl+L - clear the terminal
+
+Tab-key can be used to autocomplete filenames, which will add a ".\"
+

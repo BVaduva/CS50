@@ -1,0 +1,6 @@
+TO COMPILE
+!!!!!!!!!!!!DONT FORGET TO SAVE FIRST!!!!!!!!!!!!!
+f6 key (only without cs50.c lib)
+or
+gcc -o {filename} {filename.filetype(like"c")} cs50.c or -lcs50 (only needed if this lib is needed)
+./{filename} to run
