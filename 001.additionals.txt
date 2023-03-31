@@ -1,0 +1,21 @@
+OneNote "CODE" - Lecture 
+
+https://cs50.readthedocs.io/submit50/ - setup submit50 + /code for docker
+
+"alt + -" to jump between terminal and editor
+
+TO COMPILE
+f6 key (only without cs50.c lib)
+or
+gcc -o {filename} {filename.filetype(like"c")} cs50.c or -lcs50 (only needed if this lib is needed)
+./{filename} to run
+
+string identifier
+%c for chars
+%f for floats or doubles
+%i for ints
+%li for long integers
+%s for strings
+
+
+

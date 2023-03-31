@@ -1,0 +1,10 @@
+Datatypes and their print function
+
+bool    (true or false)
+char    %c(a single character)
+double  %f(more precise than float)
+float   %f(int with decimals)
+int     %i(numbers)
+decimal integer    %d
+long    %li(long numbers)
+string  %s(text)
