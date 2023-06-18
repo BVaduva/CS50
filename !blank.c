@@ -4,15 +4,16 @@
 #include <string.h>
 #include <stdlib.h>
 
-// Pointer Prediciton Exercise
+int *create_array(int size)
+{
+    int *arr = (int *)malloc(size* sizeof(int));
+    return arr;
+}
+
 int main(void)
 {
-    FILE *file = fopen("hi.txt", "a");
-
-    string name = get_string("Name: ");
-    string number = get_string("Number: ");
-
-    fprintf(file, "%s, %s\n", name, number);
-
-    fclose(file);
+int x = 42;     // Declare an integer variable and assign a value
+int *p = &x;    // Declare a pointer to an integer and assign the address of x
+printf("%d\n", x); // Prints 42
+printf("%d\n", *p); // Prints 42
 }
